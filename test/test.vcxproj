@@ -107,7 +107,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>libass.lib;freetype.lib;harfbuzz.lib;fribidi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libass.lib;freetype.lib;harfbuzz.lib;fribidi.lib;libpng15.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
